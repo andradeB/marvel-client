@@ -2,6 +2,7 @@
 **/node_modules/
 lib/
 lib-commonjs/
+.idea
 dist/
 css/
 coverage/

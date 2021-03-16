@@ -23,7 +23,8 @@
     "build:d.ts": "run-script tsc --emitDeclarationOnly --outDir dist/types",
     "jest": "cross-env NODE_ENV=test jest",
     "prepack": "run-script build",
-    "tsc": "tsc"
+    "tsc": "tsc",
+    "release": "standard-version"
   },
   "devDependencies": {
     "@babel/cli": "^7.13.10",
