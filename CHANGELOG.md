@@ -2,6 +2,13 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+### [1.3.4](https://github.com/andradeB/marvel-client/compare/v1.3.3...v1.3.4) (2021-03-17)
+
+
+### Bug Fixes
+
+* **services:** prevented ts number to be an fload number ([b39a5f7](https://github.com/andradeB/marvel-client/commit/b39a5f70e6c320b2f0aa0c37b412b8c3eee2bb90))
+
 ### [1.3.3](https://github.com/andradeB/marvel-client/compare/v1.3.2...v1.3.3) (2021-03-17)
 
 
