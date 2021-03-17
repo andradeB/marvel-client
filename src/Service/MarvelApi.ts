@@ -13,7 +13,7 @@ export class MarvelApi {
 
     private static getDefaultParams ({privateKey, publicKey}: Record<"publicKey" | "privateKey", string>) {
 
-        const ts = Date.now() / 1000;
+        const ts = Math.floor(Date.now() / 1000);
 
         const hash = md5(ts + privateKey + publicKey).toString();
 
