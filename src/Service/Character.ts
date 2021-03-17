@@ -7,7 +7,7 @@ import IDataContainer from "../Models/IDataContainer";
 
 export class Character {
     static getList(filter: IFilter) {
-        return MarvelApi.instance.get<IResponseBase<ICharacter>>('/v1/public/characters')
+        return MarvelApi.instance.get<IResponseBase<IDataContainer<ICharacter>>>('/v1/public/characters')
     };
 
     static getDetail (id: number) {
