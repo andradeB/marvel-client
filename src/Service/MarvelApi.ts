@@ -4,14 +4,14 @@ import md5 from 'crypto-js/md5';
 export class MarvelApi {
     static instance: AxiosInstance;
 
-    constructor(data: Record<"publicKey" | "privateKey", string>) {
+    static init(data: Record<"publicKey" | "privateKey", string>) {
         const params = this.getDefaultParams(data);
         const baseURL = 'https://gateway.marvel.com';
 
         MarvelApi.instance = axios.create({ baseURL, params })
     }
 
-    private getDefaultParams ({privateKey, publicKey}: Record<"publicKey" | "privateKey", string>) {
+    private static getDefaultParams ({privateKey, publicKey}: Record<"publicKey" | "privateKey", string>) {
 
         const ts = Date.now() / 1000;
 
