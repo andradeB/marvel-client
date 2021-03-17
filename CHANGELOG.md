@@ -2,6 +2,13 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+## [1.4.0](https://github.com/andradeB/marvel-client/compare/v1.3.4...v1.4.0) (2021-03-17)
+
+
+### Features
+
+* **services:** filter params added on getlist ([f6909e4](https://github.com/andradeB/marvel-client/commit/f6909e4f90a6aca84d4aa159ebd3290789283cf2))
+
 ### [1.3.4](https://github.com/andradeB/marvel-client/compare/v1.3.3...v1.3.4) (2021-03-17)
 
 
