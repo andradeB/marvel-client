@@ -1,0 +1,8 @@
+__test__
+src
+.commitlintrc.json
+.huskyrc
+.prettierrc.js
+.babel.config.js
+tsconfig.json
+jest.config.js

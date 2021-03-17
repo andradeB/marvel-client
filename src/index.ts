@@ -1,6 +1,2 @@
-// TODO: Implement library.
-export class MyClass {
-  public hello() {
-    return 'world!';
-  }
-}
+export * as services from './Service'
+export * from './Models'
