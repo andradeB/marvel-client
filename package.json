@@ -1,7 +1,7 @@
 {
   "name": "marveldex-client",
   "description": "",
-  "version": "1.3.2",
+  "version": "1.3.3",
   "license": "ISC",
   "author": "Bruno de Andrade Dias",
   "main": "dist",
