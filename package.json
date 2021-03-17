@@ -24,7 +24,7 @@
     "jest": "cross-env NODE_ENV=test jest",
     "prepack": "run-script build",
     "tsc": "tsc",
-    "release": "standard-version -a && run-script build"
+    "release": "standard-version -a && run-script build && npm publish"
   },
   "devDependencies": {
     "@babel/cli": "^7.13.10",
