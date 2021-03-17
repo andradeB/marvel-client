@@ -2,6 +2,13 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+### [1.4.1](https://github.com/andradeB/marvel-client/compare/v1.4.0...v1.4.1) (2021-03-17)
+
+
+### Bug Fixes
+
+* **types:** getList type fixed to return array and not single result ([4d00497](https://github.com/andradeB/marvel-client/commit/4d0049726f5900e5379c5f2f6cde2e6ec2ae2ca5))
+
 ## [1.4.0](https://github.com/andradeB/marvel-client/compare/v1.3.4...v1.4.0) (2021-03-17)
 
 
